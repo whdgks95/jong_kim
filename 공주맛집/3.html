@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>칼국수</title>
+
+    <link rel="stylesheet" type="text/css" href="sample\sample.css">
+    <style>
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <header class="header1">
+      <h1>공주하면 3대짬뽕!<h1>
+    </header>
+
+    <nav class="menustyle";>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/1.html'">칼국수</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/2.html'">한식</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/3.html'">중식</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/4.html'">피자</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/5.html'">초밥</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/6.html'">돈까스</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/7.html'">떡볶이</button>
+      <hr>
+      <button onclick="location.href='file:///C:/Users/%EC%A2%85%ED%95%9C/Desktop/%EA%B3%B5%EC%A3%BC%EB%A7%9B%EC%A7%91/8.html'">국밥</button>
+      <hr>
+      <button onclick="randomlink()";>랜덤</button>
+  </nav>
+
+    <section class= "section1" style="overflow: auto">
+
+          <div class="div2">
+          <h4>청운식당</h4>
+          <!-- /*<p><img src="C:\Users\whdgk\Desktop\웹만들기\공주맛집\칼국수\고가네칼국수\house.jpg" name="mypic" onClick="location.src='C:\Users\whdgk\Desktop\웹만들기\공주맛집\sample\6.jpg'"  class="left"></p>*/ -->
+
+            <input type="radio" name="청운" value="중식\청운식당\외부.png";  checked="checked;" onchange="chung()">외부
+            <input type="radio" name="청운" value="중식\청운식당\짜장.png"; onchange="chung()">짜장면
+            <input type="radio" name="청운" value="중식\청운식당\짬뽕.png"; onchange="chung()">짬뽕
+            <br>
+          <img id="청운식당" src="중식\청운식당\외부.png" class="left">
+
+
+            <ul style="margin-left : 300px; position: static">
+            <li><pre>041-853-8314 </li>
+            <li>
+              메뉴
+            </li>
+            <ul>
+              <li>
+                짜장면 : 6000원
+              </li>
+              <li>
+                짬뽕 : 7000원원
+              </li>
+              <li>
+                곱 : 1000원 추가
+              </li>
+
+            </ul>
+          </ul>
+          <ul style="margin-left: 700px; left:30px;">
+          <iframe class="up2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.284217389777!2d127.13715581558753!3d36.49900078001182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ac81cf504da7d%3A0x28052333e0151a6f!2z7LKt7Jq07Iud64u5!5e0!3m2!1sko!2skr!4v1589452650889!5m2!1sko!2skr" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+
+          <div class="div2">
+          <h4>진흥각</h4>
+          <!-- /*<p><img src="C:\Users\whdgk\Desktop\웹만들기\공주맛집\칼국수\고가네칼국수\house.jpg" name="mypic" onClick="location.src='C:\Users\whdgk\Desktop\웹만들기\공주맛집\sample\6.jpg'"  class="left"></p>*/ -->
+
+            <input type="radio" name="진흥" value="중식\진흥각\외부.png";  checked="checked;" onchange="jin()">외부
+            <input type="radio" name="진흥" value="중식\진흥각\탕수육.png"; onchange="jin()">탕수육
+            <input type="radio" name="진흥" value="중식\진흥각\짜장면.jpg"; onchange="jin()">짜장면
+            <input type="radio" name="진흥" value="중식\진흥각\짬뽕.jpg"; onchange="jin()">짬뽕
+            <br>
+          <img id="진흥각" src="중식\진흥각\외부.png" class="left">
+
+
+            <ul style="margin-left : 300px; position: static">
+            <li><pre>041-853-8314 </li>
+            <li>
+              메뉴
+            </li>
+            <ul>
+              <li>
+                탕수육 대(소) : 23000 (13000)원
+              </li>
+              <li>
+                짜장면 : 6000원
+              </li>
+              <li>
+                짬뽕, 짬뽕 : 7000원원
+              </li>
+              <li>
+                곱 : 1000원 추가
+              </li>
+              <li>
+                공깃밥, 음료수 : 10000원
+              </li>
+
+            </ul>
+          </ul>
+          <ul style="margin-left: 700px; left:30px;">
+            <iframe class="up2" style="bottom: 280px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.202681046107!2d127.12128991558636!3d36.45265788002173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ab9d84df96c6f%3A0x16d789828823b8e1!2z7KeE7Z2l6rCB!5e0!3m2!1sko!2skr!4v1589453954082!5m2!1sko!2skr" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+
+    </section>
+<script src="java.js" type="text/javascript"></script>
+  </body>
+</html>
